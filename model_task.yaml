@@ -17,3 +17,4 @@ enum:
   - VisionTextToText
   - ImageTextToImage
   - TextToRanking
+  - TextTo3D
