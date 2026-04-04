@@ -1,0 +1,17 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: WebSearchConfig
+description: Web search configuration
+type: object
+properties:
+  enabled:
+    type: boolean
+    description: Enable web search
+    default: true
+  max_results:
+    type: integer
+    description: Maximum number of search results
+    default: 5
+  timeout_seconds:
+    type: integer
+    description: Timeout for search requests
+    default: 30

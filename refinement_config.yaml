@@ -1,0 +1,17 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: RefinementConfig
+description: Refinement configuration
+type: object
+properties:
+  enabled:
+    type: boolean
+    description: Enable refinement
+    default: true
+  max_iterations:
+    type: integer
+    description: Maximum refinement iterations
+    default: 3
+  quality_threshold:
+    type: number
+    description: Quality threshold for refinement
+    default: 0.8
